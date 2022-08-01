@@ -1,6 +1,22 @@
 /* Hide ads */
-.ezoic-ad, .ezoic-ad, #av-container, .dtop-ad, .vm-footer, .vm-skin, [data-ref="vm-preloader"], .ad-wrap {
+.ezoic-ad,
+.ezoic-ad,
+#av-container,
+.dtop-ad,
+.vm-footer,
+.vm-skin,
+[data-ref="vm-preloader"],
+.ad-wrap,
+.ad,
+[data-google-query-id] {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important;
+}
+
+/* Hide cookie dialogs */
+.qc-cmp2-container {
+  display: none !important;
+  opacity: 0 !important;
+  height: 0 !important; 
 }
