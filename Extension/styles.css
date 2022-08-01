@@ -1,5 +1,5 @@
 /* Hide ads */
-.ezoic-ad, .ezoic-ad {
+.ezoic-ad, .ezoic-ad, #av-container, .dtop-ad, .vm-footer, .vm-skin, [data-ref="vm-preloader"], .ad-wrap {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important;

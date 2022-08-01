@@ -2,7 +2,7 @@
   "manifest_version": 3,
  
   "name": "Clean up the web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Disables unwanted UI in websites",
  
   "content_scripts": [{
