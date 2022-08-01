@@ -1,0 +1,6 @@
+/* Hide ads */
+.ezoic-ad, .ezoic-ad {
+  display: none !important;
+  opacity: 0 !important;
+  height: 0 !important;
+}
