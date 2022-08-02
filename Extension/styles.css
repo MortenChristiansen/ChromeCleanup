@@ -15,8 +15,14 @@
 }
 
 /* Hide cookie dialogs */
-.qc-cmp2-container {
+.qc-cmp2-container,
+#coiOverlay, 
+.sleeknote-anchor {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important; 
+}
+/* Fix attempts to break site until cookie dialog has been dismissed properly */
+.noScroll, .noScroll body.mm-wrapper {
+  overflow: auto !important;
 }
