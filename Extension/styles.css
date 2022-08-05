@@ -8,6 +8,8 @@
 [data-ref="vm-preloader"],
 .ad-wrap,
 .ad,
+._ap_apex_ad,
+body > div.fc-consent-root,
 [data-google-query-id] {
   display: none !important;
   opacity: 0 !important;
