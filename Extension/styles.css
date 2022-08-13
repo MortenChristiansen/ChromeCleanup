@@ -28,3 +28,7 @@ body > div.fc-consent-root,
 .noScroll, .noScroll body.mm-wrapper {
   overflow: auto !important;
 }
+
+body[style='overflow: hidden;'] {
+  overflow: unset !important;
+}
