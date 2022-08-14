@@ -19,7 +19,8 @@ body > div.fc-consent-root,
 /* Hide cookie dialogs */
 .qc-cmp2-container,
 #coiOverlay, 
-.sleeknote-anchor {
+.sleeknote-anchor,
+#cookies {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important; 
