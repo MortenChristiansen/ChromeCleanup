@@ -20,7 +20,8 @@ body > div.fc-consent-root,
 .qc-cmp2-container,
 #coiOverlay, 
 .sleeknote-anchor,
-#cookies {
+#onetrust-consent-sdk,
+#cookies,
 #CybotCookiebotDialog {
   display: none !important;
   opacity: 0 !important;
