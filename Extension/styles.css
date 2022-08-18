@@ -21,12 +21,13 @@ body > div.fc-consent-root,
 #coiOverlay, 
 .sleeknote-anchor,
 #cookies {
+#CybotCookiebotDialog {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important; 
 }
 /* Fix attempts to break site until cookie dialog has been dismissed properly */
-.noScroll, .noScroll body.mm-wrapper {
+.noScroll, .noScroll body.mm-wrapper, html.noScroll, html.noScroll body {
   overflow: auto !important;
 }
 
