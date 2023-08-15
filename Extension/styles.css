@@ -22,13 +22,15 @@ body > div.fc-consent-root,
 .sleeknote-anchor,
 #onetrust-consent-sdk,
 #cookies,
-#CybotCookiebotDialog {
+#CybotCookiebotDialog,
+#CybotCookiebotDialogBodyUnderlay,
+#drcc-overlay {
   display: none !important;
   opacity: 0 !important;
   height: 0 !important; 
 }
 /* Fix attempts to break site until cookie dialog has been dismissed properly */
-.noScroll, .noScroll body.mm-wrapper, html.noScroll, html.noScroll body {
+.noScroll, .noScroll body.mm-wrapper, html.noScroll, html.noScroll body, .noscroll {
   overflow: auto !important;
 }
 
